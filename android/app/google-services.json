@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "41123210087",
+    "project_id": "covid-jagratha",
+    "storage_bucket": "covid-jagratha.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:41123210087:android:fb052922ff81adb72005c2",
+        "android_client_info": {
+          "package_name": "com.example.findcovid_19"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "41123210087-oopvobrrkbj2pv2tbam7jgv022g9pqpn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.findcovid_19",
+            "certificate_hash": "5572d148567ffddee3b5bfc2fa4e5eaf9ef48273"
+          }
+        },
+        {
+          "client_id": "41123210087-ch874gqfopiln6l4n5h0c0h4g736ki0b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRzv-9ObLfaRf73_NDQgqp1DGgo-4Th6E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "41123210087-ch874gqfopiln6l4n5h0c0h4g736ki0b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

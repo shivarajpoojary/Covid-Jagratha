@@ -1,0 +1,29 @@
+import 'package:findcovid_19/config/size_config.dart';
+import 'package:findcovid_19/constants/color.dart';
+import 'package:flutter/material.dart';
+import 'package:simple_animations/simple_animations.dart';
+
+class MyAnimatedContainer extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return PlayAnimation<double>(
+      tween: Tween(
+        begin: 0.0,
+        end: SizeConfig.orientation == Orientation.portrait
+            ? SizeConfig.screenHeight
+            : SizeConfig.screenWidth,
+      ),
+      duration: Duration(seconds: 1),
+      curve: Curves.easeOut,
+      builder: (context, child, value) {
+        return Container(
+          width: value,
+          height: value,
+          decoration: BoxDecoration(
+              color: kLightOrangeColor,
+              image: DecorationImage(image: AssetImage("images/doctor.png"))),
+        );
+      },
+    );
+  }
+}
